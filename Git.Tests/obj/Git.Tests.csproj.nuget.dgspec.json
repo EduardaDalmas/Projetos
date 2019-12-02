@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/eduardabrischdalmas/Desktop/Git/Git/Git.Tests/Git.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/eduardabrischdalmas/Desktop/Git/Git/Git.Tests/Git.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardabrischdalmas/Desktop/Git/Git/Git.Tests/Git.Tests.csproj",
+        "projectName": "Git.Tests",
+        "projectPath": "/Users/eduardabrischdalmas/Desktop/Git/Git/Git.Tests/Git.Tests.csproj",
+        "packagesPath": "/Users/eduardabrischdalmas/.nuget/packages/",
+        "outputPath": "/Users/eduardabrischdalmas/Desktop/Git/Git/Git.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/eduardabrischdalmas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/eduardabrischdalmas/Desktop/Git/Git/Git/Git.csproj": {
+                "projectPath": "/Users/eduardabrischdalmas/Desktop/Git/Git/Git/Git.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/eduardabrischdalmas/Desktop/Git/Git/Git/Git.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardabrischdalmas/Desktop/Git/Git/Git/Git.csproj",
+        "projectName": "Git",
+        "projectPath": "/Users/eduardabrischdalmas/Desktop/Git/Git/Git/Git.csproj",
+        "packagesPath": "/Users/eduardabrischdalmas/.nuget/packages/",
+        "outputPath": "/Users/eduardabrischdalmas/Desktop/Git/Git/Git/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/eduardabrischdalmas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
